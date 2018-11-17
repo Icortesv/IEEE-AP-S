@@ -1,17 +1,14 @@
-##################### TRIPLE-T TEAM #####################
+# TRIPLE-T TEAM
 
-------------------------- TOPIC -------------------------
-  A DOA and RSS-based Localization Radio System with 
-a CPW-Fed Monopole Array Antenna at the ISM 5.8 GHz Band
----------------------------------------------------------
-
-#########################################################
-
-# Welcome! Before starting we want to say that there are
+Welcome! Before starting we want to say that there are
 still a lot of things to do in this project. The idea is 
-to keep improving and learn a lot in the meantime. 
+to keep improving and learn a lot in the meantime.
 
-# There are a lot of topics included in this project: 
+## TOPIC
+
+A DOA and RSS-based Localization Radio System with a CPW-Fed Monopole Array Antenna at the ISM 5.8 GHz Band
+
+## Topics included
 	- Antenna Theory
 	- Analog Design (RF components development)
 	- Hardware Design (FPGAs)
@@ -20,8 +17,7 @@ to keep improving and learn a lot in the meantime.
 	- Software Applications (from device drivers to GUIs)
 	- ...
 
-
-# This project is divided in different sections: 
+## Project Structure
 
 	Bibliography --> Important background before starting.
 
@@ -35,7 +31,8 @@ to keep improving and learn a lot in the meantime.
 
 	Petalinux --> Petalinux environmet: Designed device drivers and useful recommendations. 
 
+## Any questions? Contact us!
 
-							 ### Iñigo Cortés --> icortesv@ieee.org
-# Any questions? Contact us! ### Fátima Villa --> a903997@alumni.unav.es
-							 ### Álvaro Urain --> a904590@alumni.unav.es
+Iñigo Cortés --> icortesv@ieee.org
+Fátima Villa --> a903997@alumni.unav.es
+Álvaro Urain --> a904590@alumni.unav.es
