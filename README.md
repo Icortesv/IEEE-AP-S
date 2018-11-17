@@ -33,6 +33,6 @@ A DOA and RSS-based Localization Radio System with a CPW-Fed Monopole Array Ante
 
 ## Any questions? Contact us!
 
-Iñigo Cortés --> icortesv@ieee.org
-Fátima Villa --> a903997@alumni.unav.es
-Álvaro Urain --> a904590@alumni.unav.es
+* Iñigo Cortés --> icortesv@ieee.org
+* Fátima Villa --> a903997@alumni.unav.es
+* Álvaro Urain --> a904590@alumni.unav.es
