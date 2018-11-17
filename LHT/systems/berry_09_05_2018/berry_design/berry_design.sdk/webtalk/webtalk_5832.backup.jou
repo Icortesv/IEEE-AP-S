@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# 
+# Start of session at: Wed May  9 23:38:59 2018
+# Process ID: 5832
+# Current directory: D:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_09_05_2018/berry_design/berry_design.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_09_05_2018/berry_design/berry_design.sdk/webtalk/webtalk.log
+# Journal file: D:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_09_05_2018/berry_design/berry_design.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

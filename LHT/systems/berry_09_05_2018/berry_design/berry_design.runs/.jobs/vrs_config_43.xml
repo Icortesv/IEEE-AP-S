@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_first_demux_0_0_synth_1" LaunchDir="D:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_25_04_2018/berry_design/berry_design.runs/design_1_first_demux_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_second_demux_0_0_synth_1" LaunchDir="D:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_25_04_2018/berry_design/berry_design.runs/design_1_second_demux_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

@@ -1,0 +1,77 @@
+
+*** Running vivado
+    with args -log design_1_xbar_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_xbar_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_xbar_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1279.629 ; gain = 79.504 ; free physical = 8134 ; free virtual = 20308
+INFO: [Synth 8-638] synthesizing module 'design_1_xbar_0' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/synth/design_1_xbar_0.v:59]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_axi_crossbar' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_crossbar_sasd' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_addr_decoder' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_carry_and' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_carry_and' (1#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' (2#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' (2#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_addr_decoder' (3#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_decerr_slave' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_decerr_slave' (4#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_addr_arbiter_sasd' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_addr_arbiter_sasd' (5#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_splitter' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_splitter' (6#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_splitter__parameterized0' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_splitter__parameterized0' (6#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (7#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (7#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (7#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice' (8#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (8#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_crossbar_sasd' (9#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_axi_crossbar' (10#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xbar_0' (11#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/synth/design_1_xbar_0.v:59]
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1401.125 ; gain = 201.000 ; free physical = 7910 ; free virtual = 20109
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1401.125 ; gain = 201.000 ; free physical = 7893 ; free virtual = 20092
+INFO: [Device 21-403] Loading part xc7z010clg225-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1687.664 ; gain = 0.500 ; free physical = 7550 ; free virtual = 19760
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 1687.664 ; gain = 487.539 ; free physical = 7659 ; free virtual = 19877
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 1687.664 ; gain = 487.539 ; free physical = 7659 ; free virtual = 19877
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 1687.664 ; gain = 487.539 ; free physical = 7660 ; free virtual = 19878
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 1687.664 ; gain = 487.539 ; free physical = 7647 ; free virtual = 19865
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 1687.664 ; gain = 487.539 ; free physical = 7627 ; free virtual = 19845
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1687.664 ; gain = 487.539 ; free physical = 7425 ; free virtual = 19643
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1687.664 ; gain = 487.539 ; free physical = 7420 ; free virtual = 19639
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1687.664 ; gain = 487.539 ; free physical = 7420 ; free virtual = 19638
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1687.664 ; gain = 487.539 ; free physical = 7419 ; free virtual = 19637
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1687.664 ; gain = 487.539 ; free physical = 7419 ; free virtual = 19637
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1687.664 ; gain = 487.539 ; free physical = 7419 ; free virtual = 19637
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1687.664 ; gain = 487.539 ; free physical = 7419 ; free virtual = 19637
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1687.664 ; gain = 487.539 ; free physical = 7419 ; free virtual = 19638
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1687.664 ; gain = 487.539 ; free physical = 7419 ; free virtual = 19638
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |    13|
+|3     |LUT3 |     7|
+|4     |LUT4 |    50|
+|5     |LUT5 |    12|
+|6     |LUT6 |    53|
+|7     |FDRE |   130|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1687.664 ; gain = 487.539 ; free physical = 7419 ; free virtual = 19638
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 1687.664 ; gain = 500.121 ; free physical = 7453 ; free virtual = 19671

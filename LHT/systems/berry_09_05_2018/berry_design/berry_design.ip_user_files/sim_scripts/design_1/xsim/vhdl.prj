@@ -1,0 +1,8 @@
+vhdl xil_defaultlib "../../../bd/design_1/ip/design_1_rst_ps7_0_50M_0/sim/design_1_rst_ps7_0_50M_0.vhd" 
+vhdl xil_defaultlib "../../../bd/design_1/ip/design_1_axi_dma_0_0/sim/design_1_axi_dma_0_0.vhd" 
+vhdl xil_defaultlib "../../../bd/design_1/ip/design_1_axi_gpio_0_0/sim/design_1_axi_gpio_0_0.vhd" 
+vhdl xil_defaultlib "../../../bd/design_1/ip/design_1_axi_gpio_1_0/sim/design_1_axi_gpio_1_0.vhd" 
+vhdl xil_defaultlib "../../../bd/design_1/ip/design_1_first_demux_0_1/sim/design_1_first_demux_0_1.vhd" 
+vhdl xil_defaultlib "../../../bd/design_1/ip/design_1_fifo_dma_synchro_0_0/sim/design_1_fifo_dma_synchro_0_0.vhd" 
+vhdl xil_defaultlib "../../../bd/design_1/hdl/design_1.vhd" 
+nosort

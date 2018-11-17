@@ -1,0 +1,79 @@
+
+*** Running vivado
+    with args -log design_1_auto_pc_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_pc_1.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_auto_pc_1.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1324.555 ; gain = 78.941 ; free physical = 8755 ; free virtual = 298372
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_1' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/synth/design_1_auto_pc_1.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_axi_protocol_converter' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4811]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_axi3_conv' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:954]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_a_axi3_conv' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_axic_fifo' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_fifo_gen' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_fifo_gen' (19#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_axic_fifo' (20#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_a_axi3_conv' (21#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_r_axi3_conv' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:1789]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_r_axi3_conv' (22#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:1789]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_axi3_conv' (23#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:954]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_axi_protocol_converter' (24#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4811]
+INFO: [Synth 8-256] done synthesizing module 'design_1_auto_pc_1' (25#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/synth/design_1_auto_pc_1.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1446.059 ; gain = 200.445 ; free physical = 8343 ; free virtual = 297858
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1446.059 ; gain = 200.445 ; free physical = 8756 ; free virtual = 298270
+INFO: [Device 21-403] Loading part xc7z010clg225-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.07 . Memory (MB): peak = 1744.387 ; gain = 0.062 ; free physical = 8594 ; free virtual = 298108
+Finished Constraint Validation : Time (s): cpu = 00:01:04 ; elapsed = 00:01:09 . Memory (MB): peak = 1744.387 ; gain = 498.773 ; free physical = 8666 ; free virtual = 298181
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:04 ; elapsed = 00:01:09 . Memory (MB): peak = 1744.387 ; gain = 498.773 ; free physical = 8663 ; free virtual = 298178
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:04 ; elapsed = 00:01:09 . Memory (MB): peak = 1744.387 ; gain = 498.773 ; free physical = 8665 ; free virtual = 298179
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:05 ; elapsed = 00:01:10 . Memory (MB): peak = 1744.387 ; gain = 498.773 ; free physical = 8662 ; free virtual = 298177
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:06 ; elapsed = 00:01:12 . Memory (MB): peak = 1744.387 ; gain = 498.773 ; free physical = 8636 ; free virtual = 298151
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++-------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------+----------------------+----------------+
+|Module Name                                                                                                        | RTL Object                                                                    | Inference      | Size (Depth x Width) | Primitives     | 
++-------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------+----------------------+----------------+
+|inst/\gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst  | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
++-------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:17 ; elapsed = 00:01:23 . Memory (MB): peak = 1744.387 ; gain = 498.773 ; free physical = 8386 ; free virtual = 297900
+Finished Timing Optimization : Time (s): cpu = 00:01:18 ; elapsed = 00:01:24 . Memory (MB): peak = 1744.387 ; gain = 498.773 ; free physical = 8431 ; free virtual = 297945
+Finished Technology Mapping : Time (s): cpu = 00:01:18 ; elapsed = 00:01:24 . Memory (MB): peak = 1744.387 ; gain = 498.773 ; free physical = 8431 ; free virtual = 297946
+Finished IO Insertion : Time (s): cpu = 00:01:19 ; elapsed = 00:01:25 . Memory (MB): peak = 1744.387 ; gain = 498.773 ; free physical = 8391 ; free virtual = 297906
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:19 ; elapsed = 00:01:25 . Memory (MB): peak = 1744.387 ; gain = 498.773 ; free physical = 8391 ; free virtual = 297905
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:19 ; elapsed = 00:01:25 . Memory (MB): peak = 1744.387 ; gain = 498.773 ; free physical = 8387 ; free virtual = 297902
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:19 ; elapsed = 00:01:25 . Memory (MB): peak = 1744.387 ; gain = 498.773 ; free physical = 8386 ; free virtual = 297901
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:19 ; elapsed = 00:01:25 . Memory (MB): peak = 1744.387 ; gain = 498.773 ; free physical = 8386 ; free virtual = 297900
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:19 ; elapsed = 00:01:25 . Memory (MB): peak = 1744.387 ; gain = 498.773 ; free physical = 8385 ; free virtual = 297900
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |     8|
+|2     |LUT1     |     8|
+|3     |LUT2     |    21|
+|4     |LUT3     |    25|
+|5     |LUT4     |    26|
+|6     |LUT5     |    71|
+|7     |LUT6     |    31|
+|8     |RAM32X1D |     1|
+|9     |FDCE     |    23|
+|10    |FDPE     |    21|
+|11    |FDRE     |   146|
+|12    |FDSE     |     1|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:19 ; elapsed = 00:01:25 . Memory (MB): peak = 1744.387 ; gain = 498.773 ; free physical = 8385 ; free virtual = 297900
+synth_design: Time (s): cpu = 00:01:21 ; elapsed = 00:01:27 . Memory (MB): peak = 1744.387 ; gain = 511.414 ; free physical = 8431 ; free virtual = 297947

@@ -1,0 +1,98 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 70 -defaultsOSRD
+preplace port clk_adc -pg 1 -y 570 -defaultsOSRD
+preplace port Q_b14_b15 -pg 1 -y 550 -defaultsOSRD
+preplace port Q_b10_b11 -pg 1 -y 510 -defaultsOSRD
+preplace port Q_b6_b7 -pg 1 -y 470 -defaultsOSRD
+preplace port Q_b0_b1 -pg 1 -y 410 -defaultsOSRD
+preplace port I_b4_b5 -pg 1 -y 290 -defaultsOSRD
+preplace port I_b14_b15 -pg 1 -y 390 -defaultsOSRD
+preplace port SPI0_SS2_O -pg 1 -y 270 -defaultsOSRD
+preplace port Q_b12_b13 -pg 1 -y 530 -defaultsOSRD
+preplace port SPI0_SS_O -pg 1 -y 230 -defaultsOSRD
+preplace port I_b6_b7 -pg 1 -y 310 -defaultsOSRD
+preplace port SPI0_SS1_O -pg 1 -y 250 -defaultsOSRD
+preplace port Q_b8_b9 -pg 1 -y 490 -defaultsOSRD
+preplace port I_b0_b1 -pg 1 -y 250 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 90 -defaultsOSRD
+preplace port I_b12_b13 -pg 1 -y 370 -defaultsOSRD
+preplace port Q_b4_b5 -pg 1 -y 450 -defaultsOSRD
+preplace port I_b10_b11 -pg 1 -y 350 -defaultsOSRD
+preplace port I_b8_b9 -pg 1 -y 330 -defaultsOSRD
+preplace port I_b2_b3 -pg 1 -y 270 -defaultsOSRD
+preplace port Q_b2_b3 -pg 1 -y 430 -defaultsOSRD
+preplace port SPI0_MOSI_O -pg 1 -y 190 -defaultsOSRD
+preplace port SPI0_SCLK_O -pg 1 -y 170 -defaultsOSRD
+preplace portBus gpio_io_o -pg 1 -y 850 -defaultsOSRD
+preplace inst axis_data_fifo_1 -pg 1 -lvl 4 -y 380 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -y 120 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 6 -y 340 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 8 -y 600 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 5 -y 210 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 8 -y 840 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 6 -y 570 -defaultsOSRD
+preplace inst first_demux_0 -pg 1 -lvl 2 -y 400 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 7 -y 260 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 5 -y 820 -defaultsOSRD
+preplace inst fifo_dma_synchro_0 -pg 1 -lvl 5 -y 350 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 3 -y 390 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 8 -y 280 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 8 1 NJ
+preplace netloc ps7_0_axi_periph_M02_AXI 1 5 1 2060
+preplace netloc fifo_dma_synchro_0_M_AXIS_TLAST 1 5 1 2020
+preplace netloc Q_b14_b15_1 1 0 2 NJ 550 NJ
+preplace netloc xlconstant_1_dout 1 5 1 2020
+preplace netloc Q_b4_b5_1 1 0 2 NJ 450 NJ
+preplace netloc I_b4_b5_1 1 0 2 NJ 290 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 4 5 1540 660 NJ 660 NJ 660 NJ 660 3290
+preplace netloc axis_data_fifo_1_m_axis_tdata 1 4 1 1510
+preplace netloc I_b10_b11_1 1 0 2 NJ 350 NJ
+preplace netloc I_b6_b7_1 1 0 2 NJ 310 NJ
+preplace netloc processing_system7_0_SPI0_SS2_O 1 8 1 NJ
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 9 20 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 NJ 650 3260
+preplace netloc Q_b0_b1_1 1 0 2 NJ 410 NJ
+preplace netloc I_b14_b15_1 1 0 2 NJ 390 NJ
+preplace netloc ps7_0_axi_periph_M01_AXI 1 5 3 N 820 NJ 820 NJ
+preplace netloc axi_dma_0_s_axis_s2mm_tready 1 5 1 2030
+preplace netloc axi_gpio_1_gpio_io_o 1 1 6 370 640 NJ 640 NJ 640 NJ 640 NJ 640 2480
+preplace netloc Q_b12_b13_1 1 0 2 NJ 530 NJ
+preplace netloc Q_b10_b11_1 1 0 2 NJ 510 NJ
+preplace netloc I_b8_b9_1 1 0 2 NJ 330 NJ
+preplace netloc axi_dma_0_s2mm_introut 1 6 2 2460J 380 2790
+preplace netloc rst_ps7_0_50M_interconnect_aresetn 1 1 6 360J 130 NJ 130 1150 160 1530 160 NJ 160 2490
+preplace netloc axis_data_fifo_1_m_axis_tvalid 1 4 1 N
+preplace netloc axi_gpio_0_gpio_io_o 1 8 1 NJ
+preplace netloc processing_system7_0_SPI0_SS1_O 1 8 1 NJ
+preplace netloc xlconstant_0_dout 1 8 1 3270
+preplace netloc processing_system7_0_SPI0_MOSI_O 1 8 1 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 8 1 NJ
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 7 370 140 790 270 NJ 270 1500 460 2050 480 2490 480 2790J
+preplace netloc axi_dma_0_M_AXI_S2MM 1 6 1 2480
+preplace netloc axi_interconnect_0_M00_AXI 1 7 1 N
+preplace netloc fifo_dma_synchro_0_M_AXIS_TVALID 1 5 1 N
+preplace netloc clk_adc_1 1 0 2 NJ 570 NJ
+preplace netloc axis_data_fifo_0_M_AXIS 1 3 1 N
+preplace netloc fifo_dma_synchro_0_M_AXIS_TDATA 1 5 1 2000
+preplace netloc first_demux_0_M_AXIS_TVALID 1 2 1 770
+preplace netloc Q_b2_b3_1 1 0 2 NJ 430 NJ
+preplace netloc I_b12_b13_1 1 0 2 NJ 370 NJ
+preplace netloc processing_system7_0_SPI0_SS_O 1 8 1 NJ
+preplace netloc processing_system7_0_SPI0_SCLK_O 1 8 1 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 9 10 210 380 160 760 260 1160 260 1520 450 2040 200 2470 390 2800 670 3280
+preplace netloc ps7_0_axi_periph_M00_AXI 1 5 1 2010
+preplace netloc first_demux_0_M_AXIS_TDATA 1 2 1 780
+preplace netloc Q_b8_b9_1 1 0 2 NJ 490 NJ
+preplace netloc fifo_dma_synchro_0_S_AXIS_TREADY 1 4 1 N
+preplace netloc Q_b6_b7_1 1 0 2 NJ 470 NJ
+preplace netloc I_b2_b3_1 1 0 2 NJ 270 NJ
+preplace netloc I_b0_b1_1 1 0 2 NJ 250 NJ
+levelinfo -pg 1 -10 190 570 970 1340 1770 2260 2640 3030 3310 -top 0 -bot 980
+",
+}
+{
+   da_axi4_cnt: "4",
+   da_clkrst_cnt: "8",
+   da_ps7_cnt: "1",
+}

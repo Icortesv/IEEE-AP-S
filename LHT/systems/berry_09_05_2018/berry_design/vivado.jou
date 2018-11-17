@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Tue Mar 27 11:54:42 2018
+# Process ID: 49297
+# Current directory: /local/cortesio/projekte/berry_design
+# Command line: vivado
+# Log file: /local/cortesio/projekte/berry_design/vivado.log
+# Journal file: /local/cortesio/projekte/berry_design/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /local/cortesio/projekte/berry_design/berry_design.xpr
+open_bd_design {/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/design_1.bd}
+update_compile_order -fileset sources_1
+set_property location {2 674 671} [get_bd_cells axi_gpio_0]
+delete_bd_objs [get_bd_cells axi_gpio_0]
+regenerate_bd_layout
+generate_target all [get_files  /local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/design_1.bd]
+catch { config_ip_cache -export [get_ips -all design_1_auto_pc_2] }
+catch { config_ip_cache -export [get_ips -all design_1_auto_pc_1] }
+catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] }
+export_ip_user_files -of_objects [get_files /local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/design_1.bd]
+export_simulation -of_objects [get_files /local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/design_1.bd] -directory /local/cortesio/projekte/berry_design/berry_design.ip_user_files/sim_scripts -ip_user_files_dir /local/cortesio/projekte/berry_design/berry_design.ip_user_files -ipstatic_source_dir /local/cortesio/projekte/berry_design/berry_design.ip_user_files/ipstatic -lib_map_path [list {modelsim=/local/cortesio/projekte/berry_design/berry_design.cache/compile_simlib/modelsim} {questa=/local/cortesio/projekte/berry_design/berry_design.cache/compile_simlib/questa} {ies=/local/cortesio/projekte/berry_design/berry_design.cache/compile_simlib/ies} {vcs=/local/cortesio/projekte/berry_design/berry_design.cache/compile_simlib/vcs} {riviera=/local/cortesio/projekte/berry_design/berry_design.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/design_1.bd]
+synth_design -rtl -name rtl_1
+set_property IOSTANDARD LVCMOS18 [get_ports [list SPI0_SS1_O]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list SPI0_SS2_O]]
+place_ports SPI0_SS1_O K13
+place_ports SPI0_SS2_O H14
+place_ports SPI0_SS_O K15
+save_constraints
+open_bd_design {/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/design_1.bd}
+save_bd_design
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_run impl_1
+file copy -force /local/cortesio/projekte/berry_design/berry_design.runs/impl_1/design_1_wrapper.sysdef /local/cortesio/projekte/berry_design/berry_design.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace /local/cortesio/projekte/berry_design/berry_design.sdk -hwspec /local/cortesio/projekte/berry_design/berry_design.sdk/design_1_wrapper.hdf

@@ -1,0 +1,278 @@
+
+*** Running vivado
+    with args -log design_1_fifo_dma_synchro_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_fifo_dma_synchro_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_fifo_dma_synchro_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 213.648 ; gain = 5.359
+Command: synth_design -top design_1_fifo_dma_synchro_0_0 -part xc7z010clg225-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010-clg225'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010-clg225'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18980 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:20 . Memory (MB): peak = 321.117 ; gain = 85.156
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_fifo_dma_synchro_0_0' [d:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_09_05_2018/berry_design/berry_design.srcs/sources_1/bd/design_1/ip/design_1_fifo_dma_synchro_0_0/synth/design_1_fifo_dma_synchro_0_0.vhd:70]
+	Parameter C_M_DATA_WIDHT bound to: 32 - type: integer 
+	Parameter BUFFER_LENGTH bound to: 6132 - type: integer 
+INFO: [Synth 8-3491] module 'fifo_dma_synchro' declared at 'D:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_09_05_2018/RTL_modules/fifo_dma_synchro.vhd:34' bound to instance 'U0' of component 'fifo_dma_synchro' [d:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_09_05_2018/berry_design/berry_design.srcs/sources_1/bd/design_1/ip/design_1_fifo_dma_synchro_0_0/synth/design_1_fifo_dma_synchro_0_0.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'fifo_dma_synchro' [D:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_09_05_2018/RTL_modules/fifo_dma_synchro.vhd:61]
+	Parameter C_M_DATA_WIDHT bound to: 32 - type: integer 
+	Parameter BUFFER_LENGTH bound to: 6132 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fifo_dma_synchro' (1#1) [D:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_09_05_2018/RTL_modules/fifo_dma_synchro.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'design_1_fifo_dma_synchro_0_0' (2#1) [d:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_09_05_2018/berry_design/berry_design.srcs/sources_1/bd/design_1/ip/design_1_fifo_dma_synchro_0_0/synth/design_1_fifo_dma_synchro_0_0.vhd:70]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:27 . Memory (MB): peak = 371.137 ; gain = 135.176
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:28 . Memory (MB): peak = 371.137 ; gain = 135.176
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg225-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 681.500 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:03:32 . Memory (MB): peak = 681.500 ; gain = 445.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg225-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:03:32 . Memory (MB): peak = 681.500 ; gain = 445.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:03:32 . Memory (MB): peak = 681.500 ; gain = 445.539
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "m_tlast" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "packetCounter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:03:36 . Memory (MB): peak = 681.500 ; gain = 445.539
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module fifo_dma_synchro 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "U0/packetCounter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "U0/m_tlast" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:03:42 . Memory (MB): peak = 681.500 ; gain = 445.539
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:03:54 . Memory (MB): peak = 683.055 ; gain = 447.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:03:54 . Memory (MB): peak = 683.129 ; gain = 447.168
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:03:54 . Memory (MB): peak = 702.695 ; gain = 466.734
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:03:55 . Memory (MB): peak = 702.695 ; gain = 466.734
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:03:55 . Memory (MB): peak = 702.695 ; gain = 466.734
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:03:55 . Memory (MB): peak = 702.695 ; gain = 466.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:03:55 . Memory (MB): peak = 702.695 ; gain = 466.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:03:55 . Memory (MB): peak = 702.695 ; gain = 466.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:03:55 . Memory (MB): peak = 702.695 ; gain = 466.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     8|
+|2     |LUT1   |    32|
+|3     |LUT2   |    33|
+|4     |LUT3   |     2|
+|5     |LUT4   |     5|
+|6     |LUT5   |     6|
+|7     |FDRE   |    67|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-----------------+------+
+|      |Instance |Module           |Cells |
++------+---------+-----------------+------+
+|1     |top      |                 |   153|
+|2     |  U0     |fifo_dma_synchro |   153|
++------+---------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:03:55 . Memory (MB): peak = 702.695 ; gain = 466.734
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:56 . Memory (MB): peak = 702.695 ; gain = 156.371
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:03:56 . Memory (MB): peak = 702.695 ; gain = 466.734
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:04:22 . Memory (MB): peak = 705.352 ; gain = 475.332
+INFO: [Common 17-1381] The checkpoint 'D:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_09_05_2018/berry_design/berry_design.runs/design_1_fifo_dma_synchro_0_0_synth_1/design_1_fifo_dma_synchro_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'D:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_09_05_2018/berry_design/berry_design.runs/design_1_fifo_dma_synchro_0_0_synth_1/design_1_fifo_dma_synchro_0_0.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 705.352 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 28 11:38:20 2018...

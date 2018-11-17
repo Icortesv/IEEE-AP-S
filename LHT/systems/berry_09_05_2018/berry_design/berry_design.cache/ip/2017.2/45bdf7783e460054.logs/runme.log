@@ -1,0 +1,89 @@
+
+*** Running vivado
+    with args -log design_1_axi_timer_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_timer_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_axi_timer_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1322.555 ; gain = 73.938 ; free physical = 3426 ; free virtual = 319604
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_timer_0_0' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ip/design_1_axi_timer_0_0/synth/design_1_axi_timer_0_0.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'axi_timer' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:2141]
+INFO: [Synth 8-638] synthesizing module 'tc_core' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:1698]
+INFO: [Synth 8-638] synthesizing module 'mux_onehot_f' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:365]
+INFO: [Synth 8-638] synthesizing module 'MUXCY' [/sw/xilinx/vivado_2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:21613]
+INFO: [Synth 8-256] done synthesizing module 'MUXCY' (1#1) [/sw/xilinx/vivado_2017.2/Vivado/2017.2/scripts/rt/data/unisim_comp.v:21613]
+INFO: [Synth 8-256] done synthesizing module 'mux_onehot_f' (2#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:365]
+INFO: [Synth 8-638] synthesizing module 'count_module' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:1434]
+INFO: [Synth 8-638] synthesizing module 'counter_f' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:148]
+INFO: [Synth 8-256] done synthesizing module 'counter_f' (3#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:148]
+INFO: [Synth 8-256] done synthesizing module 'count_module' (4#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:1434]
+INFO: [Synth 8-638] synthesizing module 'timer_control' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:835]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'timer_control' (6#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:835]
+INFO: [Synth 8-256] done synthesizing module 'tc_core' (7#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:1698]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (8#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (8#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (8#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (8#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized3' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized3' (8#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized4' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized4' (8#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized5' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized5' (8#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized6' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized6' (8#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (9#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (10#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (11#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-256] done synthesizing module 'axi_timer' (12#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:2141]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_timer_0_0' (13#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ip/design_1_axi_timer_0_0/synth/design_1_axi_timer_0_0.vhd:90]
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1366.062 ; gain = 117.445 ; free physical = 3382 ; free virtual = 319604
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1366.062 ; gain = 117.445 ; free physical = 3377 ; free virtual = 319608
+INFO: [Device 21-403] Loading part xc7z010clg225-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.04 . Memory (MB): peak = 1744.008 ; gain = 0.062 ; free physical = 2937 ; free virtual = 319378
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1744.008 ; gain = 495.391 ; free physical = 2900 ; free virtual = 319450
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1744.008 ; gain = 495.391 ; free physical = 2900 ; free virtual = 319450
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1744.008 ; gain = 495.391 ; free physical = 2903 ; free virtual = 319453
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1744.008 ; gain = 495.391 ; free physical = 2871 ; free virtual = 319443
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1744.008 ; gain = 495.391 ; free physical = 2813 ; free virtual = 319424
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1744.008 ; gain = 495.391 ; free physical = 2484 ; free virtual = 319290
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1744.008 ; gain = 495.391 ; free physical = 2414 ; free virtual = 319251
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 1744.008 ; gain = 495.391 ; free physical = 2405 ; free virtual = 319247
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1744.008 ; gain = 495.391 ; free physical = 2390 ; free virtual = 319246
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1744.008 ; gain = 495.391 ; free physical = 2390 ; free virtual = 319246
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1744.008 ; gain = 495.391 ; free physical = 2390 ; free virtual = 319247
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1744.008 ; gain = 495.391 ; free physical = 2389 ; free virtual = 319246
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1744.008 ; gain = 495.391 ; free physical = 2389 ; free virtual = 319246
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1744.008 ; gain = 495.391 ; free physical = 2389 ; free virtual = 319246
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    16|
+|2     |LUT1   |     6|
+|3     |LUT2   |    82|
+|4     |LUT3   |    93|
+|5     |LUT4   |    82|
+|6     |LUT5   |    25|
+|7     |LUT6   |    62|
+|8     |MUXCY  |    64|
+|9     |MUXF7  |     2|
+|10    |FDR    |    12|
+|11    |FDRE   |   228|
++------+-------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1744.008 ; gain = 495.391 ; free physical = 2389 ; free virtual = 319246
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 1752.016 ; gain = 516.039 ; free physical = 2384 ; free virtual = 319275

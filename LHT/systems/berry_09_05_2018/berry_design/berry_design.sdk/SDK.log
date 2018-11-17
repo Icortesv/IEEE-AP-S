@@ -1,0 +1,103 @@
+14:16:51 INFO  : Registering command handlers for SDK TCF services
+14:16:59 INFO  : Launching XSCT server: xsct -n -interactive /local/cortesio/projekte/berry_design/berry_design.sdk/temp_xsdb_launch_script.tcl
+14:17:03 INFO  : XSCT server has started successfully.
+14:17:03 INFO  : Successfully done setting XSCT server connection channel  
+14:18:47 INFO  : Successfully done setting SDK workspace  
+14:18:47 INFO  : Processing command line option -hwspec /local/cortesio/projekte/berry_design/berry_design.sdk/design_1_wrapper.hdf.
+14:18:48 INFO  : ***** MYVIVADO is set to '/sw/xilinx/vivado_2017.2/Vivado/2017.2' *****
+18:53:36 INFO  : Registering command handlers for SDK TCF services
+18:53:37 INFO  : Launching XSCT server: xsct -n -interactive /local/cortesio/projekte/berry_design/berry_design.sdk/temp_xsdb_launch_script.tcl
+18:53:38 INFO  : XSCT server has started successfully.
+18:54:17 INFO  : Successfully done setting XSCT server connection channel  
+18:54:17 INFO  : Successfully done setting SDK workspace  
+18:54:17 INFO  : Processing command line option -hwspec /local/cortesio/projekte/berry_design/berry_design.sdk/design_1_wrapper.hdf.
+18:54:17 INFO  : ***** MYVIVADO is set to '/sw/xilinx/vivado_2017.2/Vivado/2017.2' *****
+17:24:50 INFO  : Launching XSCT server: xsct -n -interactive /local/cortesio/projekte/berry_design/berry_design.sdk/temp_xsdb_launch_script.tcl
+17:24:52 INFO  : XSCT server has started successfully.
+17:24:59 INFO  : Successfully done setting XSCT server connection channel  
+17:24:59 INFO  : Successfully done setting SDK workspace  
+17:25:02 INFO  : Registering command handlers for SDK TCF services
+17:26:13 INFO  : Processing command line option -hwspec /local/cortesio/projekte/berry_design/berry_design.sdk/design_1_wrapper.hdf.
+17:26:13 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+17:26:13 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1522163440000,  Project:1519840332000
+17:26:13 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from /local/cortesio/projekte/berry_design/berry_design.sdk/design_1_wrapper.hdf.
+17:26:13 INFO  : ***** MYVIVADO is set to '/sw/xilinx/vivado_2017.2/Vivado/2017.2' *****
+17:26:13 INFO  : Copied contents of /local/cortesio/projekte/berry_design/berry_design.sdk/design_1_wrapper.hdf into /design_1_wrapper_hw_platform_1/system.hdf.
+17:26:21 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:26:21 INFO  : Clearing existing target manager status.
+17:26:24 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:26:24 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+17:36:23 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:07:59 INFO  : Registering command handlers for SDK TCF services
+10:07:59 INFO  : Launching XSCT server: xsct -n -interactive /alumnos/a903627/vivado/berry_design/berry_design.sdk/temp_xsdb_launch_script.tcl
+10:08:01 INFO  : XSCT server has started successfully.
+10:08:28 INFO  : Processing command line option -hwspec /alumnos/a903627/vivado/berry_design/berry_design.sdk/design_1_wrapper.hdf.
+10:08:28 INFO  : Successfully done setting XSCT server connection channel  
+10:08:28 INFO  : Successfully done setting SDK workspace  
+10:09:24 INFO  : Launching XSCT server: xsct -n -interactive /alumnos/a903627/vivado/berry_design/berry_design.sdk/temp_xsdb_launch_script.tcl
+10:09:26 INFO  : XSCT server has started successfully.
+10:09:26 INFO  : Successfully done setting XSCT server connection channel  
+10:09:27 INFO  : Successfully done setting SDK workspace  
+10:09:29 INFO  : Registering command handlers for SDK TCF services
+10:09:56 INFO  : Processing command line option -hwspec /alumnos/a903627/vivado/berry_design/berry_design.sdk/design_1_wrapper.hdf.
+10:09:56 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_2.
+10:12:18 INFO  : Registering command handlers for SDK TCF services
+10:12:19 INFO  : Launching XSCT server: xsct -n -interactive /alumnos/a903627/vivado/berry_design/berry_design.sdk/temp_xsdb_launch_script.tcl
+10:12:20 INFO  : XSCT server has started successfully.
+10:12:47 INFO  : Processing command line option -hwspec /alumnos/a903627/vivado/berry_design/berry_design.sdk/design_1_wrapper.hdf.
+10:12:48 INFO  : Successfully done setting XSCT server connection channel  
+10:12:48 INFO  : Successfully done setting SDK workspace  
+11:04:54 INFO  : Registering command handlers for SDK TCF services
+11:04:54 INFO  : Launching XSCT server: xsct -n -interactive /alumnos/a903627/vivado/berry_design/berry_design.sdk/temp_xsdb_launch_script.tcl
+11:04:56 INFO  : XSCT server has started successfully.
+11:04:56 INFO  : Successfully done setting XSCT server connection channel  
+11:05:24 INFO  : Processing command line option -hwspec /alumnos/a903627/vivado/berry_design/berry_design.sdk/design_1_wrapper.hdf.
+11:05:24 INFO  : Successfully done setting SDK workspace  
+15:19:19 INFO  : Registering command handlers for SDK TCF services
+15:19:20 INFO  : Launching XSCT server: xsct -n -interactive /alumnos/a903627/vivado/berry_design/berry_design.sdk/temp_xsdb_launch_script.tcl
+15:19:21 INFO  : XSCT server has started successfully.
+15:19:21 INFO  : Successfully done setting XSCT server connection channel  
+15:19:48 INFO  : Processing command line option -hwspec /alumnos/a903627/vivado/berry_design/berry_design.sdk/design_1_wrapper.hdf.
+15:19:48 INFO  : Successfully done setting SDK workspace  
+13:01:39 INFO  : Registering command handlers for SDK TCF services
+13:01:39 INFO  : Launching XSCT server: xsct -n -interactive /alumnos/a903627/vivado/berry_design/berry_design.sdk/temp_xsdb_launch_script.tcl
+13:01:41 INFO  : XSCT server has started successfully.
+13:01:41 INFO  : Successfully done setting XSCT server connection channel  
+13:02:31 INFO  : Processing command line option -hwspec /alumnos/a903627/vivado/berry_design/berry_design.sdk/design_1_wrapper.hdf.
+13:02:31 INFO  : Successfully done setting SDK workspace  
+11:07:08 INFO  : Registering command handlers for SDK TCF services
+11:07:10 INFO  : Launching XSCT server: xsct -n -interactive /alumnos/a903627/vivado/berry_25_04_2018/berry_design/berry_design.sdk/temp_xsdb_launch_script.tcl
+11:07:15 INFO  : XSCT server has started successfully.
+11:07:16 INFO  : Successfully done setting XSCT server connection channel  
+11:08:01 INFO  : Processing command line option -hwspec /alumnos/a903627/vivado/berry_25_04_2018/berry_design/berry_design.sdk/design_1_wrapper.hdf.
+11:08:01 INFO  : Successfully done setting SDK workspace  
+11:21:53 INFO  : Registering command handlers for SDK TCF services
+11:21:53 INFO  : Launching XSCT server: xsct -n -interactive /alumnos/a903627/vivado/berry_25_04_2018/berry_design/berry_design.sdk/temp_xsdb_launch_script.tcl
+11:21:56 INFO  : XSCT server has started successfully.
+11:22:27 INFO  : Processing command line option -hwspec /alumnos/a903627/vivado/berry_25_04_2018/berry_design/berry_design.sdk/design_1_wrapper.hdf.
+11:22:27 INFO  : Successfully done setting XSCT server connection channel  
+11:22:27 INFO  : Successfully done setting SDK workspace  
+15:42:22 INFO  : Registering command handlers for SDK TCF services
+15:42:24 INFO  : Launching XSCT server: xsct.bat -interactive D:\INIGO\AP_CONTEST\PROJECTS_VIVADO\berry_08_05_2018\berry_design\berry_design.sdk\temp_xsdb_launch_script.tcl
+15:42:29 INFO  : XSCT server has started successfully.
+15:42:30 INFO  : Successfully done setting XSCT server connection channel  
+15:43:33 INFO  : Successfully done setting SDK workspace  
+15:43:33 INFO  : Processing command line option -hwspec D:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_08_05_2018/berry_design/berry_design.sdk/design_1_wrapper.hdf.
+23:37:46 INFO  : Registering command handlers for SDK TCF services
+23:37:48 INFO  : Launching XSCT server: xsct.bat -interactive D:\INIGO\AP_CONTEST\PROJECTS_VIVADO\berry_09_05_2018\berry_design\berry_design.sdk\temp_xsdb_launch_script.tcl
+23:37:52 INFO  : XSCT server has started successfully.
+23:38:35 INFO  : Successfully done setting XSCT server connection channel  
+23:38:35 INFO  : Successfully done setting SDK workspace  
+23:38:36 INFO  : Processing command line option -hwspec D:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_09_05_2018/berry_design/berry_design.sdk/design_1_wrapper.hdf.
+01:05:15 INFO  : Registering command handlers for SDK TCF services
+01:05:19 INFO  : Launching XSCT server: xsct.bat -interactive D:\INIGO\AP_CONTEST\PROJECTS_VIVADO\berry_09_05_2018\berry_design\berry_design.sdk\temp_xsdb_launch_script.tcl
+01:05:27 INFO  : XSCT server has started successfully.
+01:08:11 INFO  : Successfully done setting XSCT server connection channel  
+01:08:11 INFO  : Successfully done setting SDK workspace  
+01:08:11 INFO  : Processing command line option -hwspec D:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_09_05_2018/berry_design/berry_design.sdk/design_1_wrapper.hdf.
+22:57:49 INFO  : Registering command handlers for SDK TCF services
+22:58:13 INFO  : Launching XSCT server: xsct.bat -interactive D:\INIGO\AP_CONTEST\PROJECTS_VIVADO\berry_09_05_2018\berry_design\berry_design.sdk\temp_xsdb_launch_script.tcl
+22:58:19 INFO  : XSCT server has started successfully.
+22:58:59 INFO  : Successfully done setting XSCT server connection channel  
+22:58:59 INFO  : Successfully done setting SDK workspace  
+22:58:59 INFO  : Processing command line option -hwspec D:/INIGO/AP_CONTEST/PROJECTS_VIVADO/berry_09_05_2018/berry_design/berry_design.sdk/design_1_wrapper.hdf.

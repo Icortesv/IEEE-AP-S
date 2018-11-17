@@ -1,0 +1,1 @@
+void adc_mapping(unsigned char *buffer, double * I_data, double * Q_data);

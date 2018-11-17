@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon May  7 11:19:22 2018
+# Process ID: 16818
+# Current directory: /alumnos/a903627/vivado/berry_25_04_2018/berry_design/berry_design.runs/impl_1
+# Command line: vivado -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: /alumnos/a903627/vivado/berry_25_04_2018/berry_design/berry_design.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /alumnos/a903627/vivado/berry_25_04_2018/berry_design/berry_design.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

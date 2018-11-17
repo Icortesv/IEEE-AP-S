@@ -1,0 +1,109 @@
+
+*** Running vivado
+    with args -log design_1_auto_pc_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_pc_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_auto_pc_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1321.555 ; gain = 75.941 ; free physical = 1059 ; free virtual = 315174
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_axi_protocol_converter' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4811]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_b2s' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4229]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_b2s_aw_channel' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3974]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_b2s_cmd_translator' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3467]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_b2s_incr_cmd' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3093]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_b2s_incr_cmd' (1#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3093]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_b2s_wrap_cmd' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2903]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_b2s_wrap_cmd' (2#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2903]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_b2s_cmd_translator' (3#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3467]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_b2s_wr_cmd_fsm' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3225]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_b2s_wr_cmd_fsm' (4#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3225]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_b2s_aw_channel' (5#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3974]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_b2s_b_channel' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3609]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_b2s_simple_fifo' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_b2s_simple_fifo' (6#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_b2s_simple_fifo__parameterized0' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_b2s_simple_fifo__parameterized0' (6#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_b2s_b_channel' (7#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3609]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_b2s_ar_channel' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4085]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_b2s_rd_cmd_fsm' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3336]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_b2s_rd_cmd_fsm' (8#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3336]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_b2s_ar_channel' (9#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4085]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_b2s_r_channel' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3814]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_b2s_simple_fifo__parameterized1' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_b2s_simple_fifo__parameterized1' (9#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_13_b2s_simple_fifo__parameterized2' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_b2s_simple_fifo__parameterized2' (9#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_b2s_r_channel' (10#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3814]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axi_register_slice' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (11#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice' (12#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized0' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized0' (12#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized1' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized1' (12#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized2' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized2' (12#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (13#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axi_register_slice' (14#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axi_register_slice__parameterized0' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (14#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized3' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized3' (14#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized4' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized4' (14#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized5' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized5' (14#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized6' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized6' (14#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (14#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axi_register_slice__parameterized0' (14#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_b2s' (15#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4229]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_13_axi_protocol_converter' (16#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/f0ae/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4811]
+INFO: [Synth 8-256] done synthesizing module 'design_1_auto_pc_0' (17#1) [/local/cortesio/projekte/berry_design/berry_design.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1443.059 ; gain = 197.445 ; free physical = 2079 ; free virtual = 314795
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1443.059 ; gain = 197.445 ; free physical = 2078 ; free virtual = 314800
+INFO: [Device 21-403] Loading part xc7z010clg225-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.05 . Memory (MB): peak = 1746.387 ; gain = 0.062 ; free physical = 2370 ; free virtual = 315235
+Finished Constraint Validation : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 1746.387 ; gain = 500.773 ; free physical = 2781 ; free virtual = 315298
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 1746.387 ; gain = 500.773 ; free physical = 2781 ; free virtual = 315298
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 1746.387 ; gain = 500.773 ; free physical = 2782 ; free virtual = 315300
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1746.387 ; gain = 500.773 ; free physical = 2758 ; free virtual = 315293
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1746.387 ; gain = 500.773 ; free physical = 2690 ; free virtual = 315266
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1746.387 ; gain = 500.773 ; free physical = 2348 ; free virtual = 315116
+Finished Timing Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1746.387 ; gain = 500.773 ; free physical = 2214 ; free virtual = 315027
+Finished Technology Mapping : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1746.387 ; gain = 500.773 ; free physical = 2193 ; free virtual = 315017
+Finished IO Insertion : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 1746.387 ; gain = 500.773 ; free physical = 2159 ; free virtual = 315000
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 1746.387 ; gain = 500.773 ; free physical = 2158 ; free virtual = 314999
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 1746.387 ; gain = 500.773 ; free physical = 2151 ; free virtual = 314994
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 1746.387 ; gain = 500.773 ; free physical = 2149 ; free virtual = 314993
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 1746.387 ; gain = 500.773 ; free physical = 2146 ; free virtual = 314990
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 1746.387 ; gain = 500.773 ; free physical = 2146 ; free virtual = 314990
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |    18|
+|2     |LUT1    |    38|
+|3     |LUT2    |    18|
+|4     |LUT3    |   236|
+|5     |LUT4    |    48|
+|6     |LUT5    |    73|
+|7     |LUT6    |   103|
+|8     |SRL16E  |    18|
+|9     |SRLC32E |    47|
+|10    |FDRE    |   550|
+|11    |FDSE    |    48|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 1746.387 ; gain = 500.773 ; free physical = 2146 ; free virtual = 314990
+synth_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 1778.004 ; gain = 545.031 ; free physical = 2178 ; free virtual = 315058

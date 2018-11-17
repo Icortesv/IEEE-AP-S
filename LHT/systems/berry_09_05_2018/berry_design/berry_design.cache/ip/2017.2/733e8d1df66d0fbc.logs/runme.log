@@ -1,0 +1,68 @@
+
+*** Running vivado
+    with args -log design_1_axi_gpio_1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_gpio_1_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_axi_gpio_1_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1273.980 ; gain = 76.500 ; free physical = 8591 ; free virtual = 19624
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_1_0' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/synth/design_1_axi_gpio_1_0.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:1257]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (6#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:177]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (7#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:1257]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_1_0' (8#1) [/alumnos/a903627/vivado/berry_design/berry_design.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/synth/design_1_axi_gpio_1_0.vhd:84]
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1316.480 ; gain = 119.000 ; free physical = 8580 ; free virtual = 19613
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1316.480 ; gain = 119.000 ; free physical = 8548 ; free virtual = 19581
+INFO: [Device 21-403] Loading part xc7z010clg225-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.06 . Memory (MB): peak = 1678.621 ; gain = 0.500 ; free physical = 8108 ; free virtual = 19141
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1678.621 ; gain = 481.141 ; free physical = 7971 ; free virtual = 19005
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1678.621 ; gain = 481.141 ; free physical = 7971 ; free virtual = 19005
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1678.621 ; gain = 481.141 ; free physical = 7972 ; free virtual = 19005
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1678.621 ; gain = 481.141 ; free physical = 7940 ; free virtual = 18973
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1678.621 ; gain = 481.141 ; free physical = 7645 ; free virtual = 18678
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1678.621 ; gain = 481.141 ; free physical = 7726 ; free virtual = 18759
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1678.621 ; gain = 481.141 ; free physical = 7725 ; free virtual = 18758
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1678.621 ; gain = 481.141 ; free physical = 7723 ; free virtual = 18757
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1678.621 ; gain = 481.141 ; free physical = 7711 ; free virtual = 18744
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1678.621 ; gain = 481.141 ; free physical = 7711 ; free virtual = 18744
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1678.621 ; gain = 481.141 ; free physical = 7710 ; free virtual = 18744
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1678.621 ; gain = 481.141 ; free physical = 7710 ; free virtual = 18744
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1678.621 ; gain = 481.141 ; free physical = 7710 ; free virtual = 18744
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1678.621 ; gain = 481.141 ; free physical = 7710 ; free virtual = 18744
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     4|
+|3     |LUT3 |     5|
+|4     |LUT4 |     4|
+|5     |LUT5 |    14|
+|6     |LUT6 |     4|
+|7     |FDRE |    25|
+|8     |FDSE |     1|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1678.621 ; gain = 481.141 ; free physical = 7710 ; free virtual = 18744
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 1678.621 ; gain = 493.723 ; free physical = 7712 ; free virtual = 18746
