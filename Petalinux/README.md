@@ -1,17 +1,11 @@
-# IEEE-AP-S
+# Petalinux
 
-This project is divided in different sections: 
+## Description 
 
-Bibliography --> Important background before starting.
+Dedicated to created device drivers and useful scripts to run everything automatically. 
 
-HD --> Hardware Design: Designed boards.
+## Structure 
 
-LHT --> Localization Hardware Toolkit: Designed Hardware designs. 
+drivers --> Device drivers: DMA, GPIO,... device drivers. 
 
-LST --> Localization Software Toolkit: Designed User applications. 
-
-MLT --> MATLAB Localization Toolkit: Designed simulations. 
-
-Petalinux --> Petalinux environmet: Designed device drivers and useful recommendations. 
-
-
+scripts --> Useful scripts to run petalinux, compile the project and create the BOOT.BIN, the rootfs and the devicetree.

@@ -1,17 +1,10 @@
-# IEEE-AP-S
+# Hardware Design
+## Toolkits 
 
-This project is divided in different sections: 
+We have used Eagle because of previous experience in other projects. 
 
-Bibliography --> Important background before starting.
+Other recommendations: DesignSpark (easy), KiCad EDA, Allegro (advance). 
 
-HD --> Hardware Design: Designed boards.
+## Boards
 
-LHT --> Localization Hardware Toolkit: Designed Hardware designs. 
-
-LST --> Localization Software Toolkit: Designed User applications. 
-
-MLT --> MATLAB Localization Toolkit: Designed simulations. 
-
-Petalinux --> Petalinux environmet: Designed device drivers and useful recommendations. 
-
-
+* PCI: It is a PCI to GPIO Adapter. It connects the output of the ADC to the GPIOs of the Zynqberry.

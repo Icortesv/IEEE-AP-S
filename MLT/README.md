@@ -1,17 +1,16 @@
-# IEEE-AP-S
+# MATLAB Localization Toolkit
+## Description
 
-This project is divided in different sections: 
+This is the first step to verify the correct functionality of new algorithms. 
 
-Bibliography --> Important background before starting.
+It would be nice to have a receiver structure written in Matlab without using Simulink. 
 
-HD --> Hardware Design: Designed boards.
+## Structure
 
-LHT --> Localization Hardware Toolkit: Designed Hardware designs. 
+packages --> Useful functions: visualization, tracking, acquisition... fucntions.
 
-LST --> Localization Software Toolkit: Designed User applications. 
+systems --> Main applications.
 
-MLT --> MATLAB Localization Toolkit: Designed simulations. 
+### Notes
 
-Petalinux --> Petalinux environmet: Designed device drivers and useful recommendations. 
-
-
+* Still working on this.

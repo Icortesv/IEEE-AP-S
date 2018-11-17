@@ -1,17 +1,17 @@
-# IEEE-AP-S
+# Localization Hardware Toolkit
 
-This project is divided in different sections: 
+## Description
 
-Bibliography --> Important background before starting.
+The implemented designed hardware in the FPGA of the ZYNQberry is included.
 
-HD --> Hardware Design: Designed boards.
+## Structure
 
-LHT --> Localization Hardware Toolkit: Designed Hardware designs. 
+packages --> Useful hardware RTL modules, Default IP modules from Xilinx or from Microsemi. 
 
-LST --> Localization Software Toolkit: Designed User applications. 
+platforms --> Final hardware platforms of hardware designs.
 
-MLT --> MATLAB Localization Toolkit: Designed simulations. 
+systems --> Hardware projects.
 
-Petalinux --> Petalinux environmet: Designed device drivers and useful recommendations. 
+### Notes 
 
-
+* Still improving the structure. 

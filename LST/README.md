@@ -1,17 +1,14 @@
-# IEEE-AP-S
+# Localization Software Toolkit
+## Description 
 
-This project is divided in different sections: 
+User applications are included. 
 
-Bibliography --> Important background before starting.
+## Structure
 
-HD --> Hardware Design: Designed boards.
+packages --> Generic useful libraries for the user applications, makefiles...
 
-LHT --> Localization Hardware Toolkit: Designed Hardware designs. 
+systems --> User main applications.  
 
-LST --> Localization Software Toolkit: Designed User applications. 
+### Note
 
-MLT --> MATLAB Localization Toolkit: Designed simulations. 
-
-Petalinux --> Petalinux environmet: Designed device drivers and useful recommendations. 
-
-
+* Still working in the structure.
