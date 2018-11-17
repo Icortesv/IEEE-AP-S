@@ -1,17 +1,12 @@
-# IEEE-AP-S
+# Bibliography
+## Description
+All the documentation used for this project is shown. 
 
-This project is divided in different sections: 
+## Structure
+Master_Thesis --> Master Thesis of Iñigo Cortés. It is recommended to read if you are interested in FPGAs, Embedded OS or DSP.
 
-Bibliography --> Important background before starting.
+Presentations --> Presentations used to introduce this project. 
 
-HD --> Hardware Design: Designed boards.
+Report --> Paper of this project. 
 
-LHT --> Localization Hardware Toolkit: Designed Hardware designs. 
-
-LST --> Localization Software Toolkit: Designed User applications. 
-
-MLT --> MATLAB Localization Toolkit: Designed simulations. 
-
-Petalinux --> Petalinux environmet: Designed device drivers and useful recommendations. 
-
-
+Zynqberry --> Useful documentation about the Zynqberry.
