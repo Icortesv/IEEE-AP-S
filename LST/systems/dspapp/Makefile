@@ -26,5 +26,6 @@ adc_mapping.o : adc_mapping.c
 func_dsp.o : func_dsp.c
 	$(CC) -pthread -I -O3 -c -o $@ $^ $(LIBS) $(CFLAGS)
 
+
 clean:
 	-rm -f $(APP) *.elf *.gdb *.o *.a
