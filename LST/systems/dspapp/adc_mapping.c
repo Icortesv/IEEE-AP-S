@@ -19,10 +19,9 @@ void adc_mapping(unsigned char *buffer, double * I_data, double * Q_data){
 	memcpy(rx_s, buffer, BUFFER_SIZE);
 
 	// PERFORM THE MAPPING
-	for (int i=0; i<PN9_SIZE*RUPSAMP;i=i+1){
-		
+	for (int i = 0; i < PN9_SIZE*RUPSAMP; i = i + 1) {
 		// I channel
-		if ((rx_s[2 * i] & SIGN_MASK) == SIGN_MASK ){
+		if ((rx_s[2 * i] & SIGN_MASK) == SIGN_MASK ) {
 			// Negative number		
 			rx_two_comp_I = (rx_s[2 * i] - 1) ^ MASK_ONES;
 			I_data[i] = -(double)rx_two_comp_I / RESOLUTION;
@@ -31,16 +30,15 @@ void adc_mapping(unsigned char *buffer, double * I_data, double * Q_data){
 			//Positive numbers
 			I_data[i] = (double)rx_s[2 * i] / RESOLUTION;
 		}
-		
 		// Q channel 
-		if ((rx_s[2*i+1] & SIGN_MASK) == SIGN_MASK ){
+		if ((rx_s[2 * i + 1] & SIGN_MASK) == SIGN_MASK ) {
 			// Negative number		
-			rx_two_comp_Q = (rx_s[2*i+1]-1) ^ MASK_ONES;
+			rx_two_comp_Q = (rx_s[2 * i + 1] - 1) ^ MASK_ONES;
 			Q_data[i] = -(double)rx_two_comp_Q/RESOLUTION;
 		}
 		else {
 			//Positive number
-			Q_data[i] = (double)rx_s[2*i+1]/RESOLUTION;
+			Q_data[i] = (double)rx_s[2 * i + 1]/RESOLUTION;
 		}
 	}	
 }
