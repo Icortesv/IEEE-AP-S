@@ -14,22 +14,22 @@ void adc_mapping(unsigned char *buffer, double * I_data, double * Q_data){
 	
 	unsigned short rx_two_comp_I; 
 	unsigned short rx_two_comp_Q;
-	unsigned short rx_s[BUFFER_SIZE/2];
-	memcpy(rx_s,buffer, BUFFER_SIZE);
+	unsigned short rx_s[BUFFER_SIZE / 2];
+    // copy the buffer into rx_s
+	memcpy(rx_s, buffer, BUFFER_SIZE);
 
-	
 	// PERFORM THE MAPPING
 	for (int i=0; i<PN9_SIZE*RUPSAMP;i=i+1){
 		
 		// I channel
-		if ((rx_s[2*i] & SIGN_MASK) == SIGN_MASK ){
+		if ((rx_s[2 * i] & SIGN_MASK) == SIGN_MASK ){
 			// Negative number		
-			rx_two_comp_I = (rx_s[2*i]-1) ^ MASK_ONES;
-			I_data[i] = -(double)rx_two_comp_I/RESOLUTION;
+			rx_two_comp_I = (rx_s[2 * i] - 1) ^ MASK_ONES;
+			I_data[i] = -(double)rx_two_comp_I / RESOLUTION;
 		}
 		else {
 			//Positive numbers
-			I_data[i] = (double)rx_s[2*i]/RESOLUTION;
+			I_data[i] = (double)rx_s[2 * i] / RESOLUTION;
 		}
 		
 		// Q channel 
