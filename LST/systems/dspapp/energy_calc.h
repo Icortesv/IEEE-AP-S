@@ -1,1 +1,0 @@
-double energy_calc(double *data);
