@@ -1,7 +1,8 @@
 #include <math.h>
 #include <stdlib.h>
-#include "func_dsp.h"
 
+#define PN9_SIZE 511
+#define RUPSAMP 12
 #define	MAXFFT	512
 
 #define	MULR(ar,ai,  br,bi)		((ar)*(br)-(ai)*(bi))
