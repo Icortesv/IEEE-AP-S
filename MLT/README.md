@@ -7,7 +7,7 @@ It would be nice to have a receiver structure written in Matlab without using Si
 
 ## Structure
 
-packages --> Useful functions: visualization, tracking, acquisition... fucntions.
+packages --> Useful functions: visualization, tracking, acquisition... functions.
 
 systems --> Main applications.
 
