@@ -56,11 +56,6 @@ typedef signed long long        tInt64;
 #define DIRECTIVITY_3 0x0D //1101
 #define DIRECTIVITY_4 0x0B //1011 
 
-//DEFINE VALUES
-#define ANTENNA_ENABLE_VALUE 1
-#define ANTENNA_DISABLE_VALUE 0
-
-
 // DEFINE PATHS
 #define EXPORT_PATH "/sys/class/gpio/export"
 #define INIT_PATH "/sys/class/gpio/gpio"
@@ -74,8 +69,6 @@ typedef signed long long        tInt64;
 int set_multi_export (int base, int size);
 int set_multi_direction (int base, int size, char direction[]);
 int set_multi_value(int base, int size, int value);
-//static int get_gpio_value(int base, int size);
-//int welcome_menu(void);
 int gpio_init(void);
 
 
@@ -84,36 +77,34 @@ int main(int argc,char** argv)
 	//AUX VARIABLES
 	int ret;
 	int arg;
-
 	//GPIO VARIABLES
 	int error_value;
 
 	ret = gpio_init();
 	if (ret<0) exit(1);
 	
-
-	for(arg=1; arg<argc; arg++){
+	for(arg=1; arg < argc; arg++) {
 		if(argv[arg][0]=='-'){
 			//COMMAND TABLE
-			switch (argv[arg][1]){
+			switch (argv[arg][1]) {
 			// MODE ON 
 			case '1':				
-				error_value = set_multi_value(ANTENNA_CONTROL,SIZE_ANTENNA_CONTROL_GPIO,DIRECTIVITY_1);
+				error_value = set_multi_value(ANTENNA_CONTROL, SIZE_ANTENNA_CONTROL_GPIO, DIRECTIVITY_1);
 				if (error_value)
 					exit(1);
 				break;
 			case '2':
-				error_value = set_multi_value(ANTENNA_CONTROL,SIZE_ANTENNA_CONTROL_GPIO,DIRECTIVITY_2);
+				error_value = set_multi_value(ANTENNA_CONTROL, SIZE_ANTENNA_CONTROL_GPIO, DIRECTIVITY_2);
 				if (error_value)
 					exit(1);				
 				break; 
 			case '3': 
-				error_value = set_multi_value(ANTENNA_CONTROL,SIZE_ANTENNA_CONTROL_GPIO,DIRECTIVITY_3);
+				error_value = set_multi_value(ANTENNA_CONTROL, SIZE_ANTENNA_CONTROL_GPIO, DIRECTIVITY_3);
 				if (error_value)
 					exit(1);
 				break; 
 			case '4': 
-				error_value = set_multi_value(ANTENNA_CONTROL,SIZE_ANTENNA_CONTROL_GPIO,DIRECTIVITY_4);
+				error_value = set_multi_value(ANTENNA_CONTROL, SIZE_ANTENNA_CONTROL_GPIO, DIRECTIVITY_4);
 				if (error_value)
 					exit(1);
 				break; 
@@ -130,7 +121,6 @@ int main(int argc,char** argv)
 			fprintf(stderr," Antenna directivity  is probably 1,2,3 or 4.\n");
 		}	
 	}
-
 	fprintf(stderr,"Finished... \n");
 	return 0;
 }
